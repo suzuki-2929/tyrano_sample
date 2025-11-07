@@ -1,12 +1,12 @@
 *start
 
-[title name="Ready or Not"]
+[title name="突入日誌"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 [bg storage=manshon.jpg time=500]
 
-「Ready or Not」[l][r]
+「突入日誌」[l][r]
 
 あなたは、とある地域のSWAT隊長である。[l][r]
 
@@ -26,6 +26,9 @@
 
 [l][r]
 突入した。人の気配はない。どこに向かう？ [l][r]
+
+[link target=*tag_living] →リビングへ [endlink][r]
+[link target=*tag_run] →その他の各部屋を調べる [endlink][r]
 
 【 GOOD END 】[l][cm]
 
