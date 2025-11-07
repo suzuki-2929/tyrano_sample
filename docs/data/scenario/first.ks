@@ -1,35 +1,33 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="Ready or Not"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
+[bg storage=manshon.jpg time=500]
 
-「走るか寝るかするメロス」[l][r]
+「Ready or Not」[l][r]
 
-メロスは激怒した。[l][r]
+あなたは、とある地域のSWAT隊長である。[l][r]
 
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
+これから、ある指名手配犯を逮捕するためマンションへ突入する。[l][r]
 
-(中略)[l][r]
+突入する部隊はあなたを含めて６名。まず人員配置を考えよう。[l][r]
 
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
-
-[link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
+[link target=*tag_front] →全員で玄関から [endlink][r]
+[link target=*tag_run] →マンション裏側に2名配置 [endlink][r]
 [s]
 
-*tag_sleep
+*tag_front
 
 [cm]
 
-[bg storage=sleep.jpg time=500]
+[bg storage=front.jpg time=500]
 
-メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
+[l][r]
+突入した。人の気配はない。どこに向かう？ [l][r]
 
-【 BAD END 】[l][cm]
+【 GOOD END 】[l][cm]
 
 [jump target=*start]
 
